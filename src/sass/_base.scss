@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  color: #404040;
+}
+p {
+  line-height: 1.6;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+}
+input,
+button {
+  outline: none;
+  border: none;
+  font-family: inherit;
+}
+input {
+  color: inherit;
+  display: block;
+}
+button {
+  cursor: pointer;
+}

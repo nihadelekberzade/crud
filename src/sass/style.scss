@@ -1,0 +1,79 @@
+@import "./base";
+
+.layout {
+  padding: 30px;
+  @media only screen and (min-width: 1000px) {
+    display: flex;
+    & > *:first-child {
+      margin-right: 40px;
+      margin-bottom: 0;
+    }
+  }
+}
+.input-zone {
+  flex: 0.5;
+  margin-bottom: 30px;
+}
+.view-zone {
+  flex: 0.5;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.form-group {
+  margin-bottom: 15px;
+  label {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  input {
+    padding: 12px;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    width: 100%;
+  }
+}
+.btn-blue {
+  border: 1px solid #0366ee;
+  background: #0366ee;
+  color: #ffffff;
+  text-transform: none;
+  margin-right: 15px;
+}
+.btn {
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+.btn-danger {
+  color: #ffffff;
+  background-color: red;
+}
+table {
+  thead {
+    line-height: 40px;
+  }
+  th {
+    text-align: left;
+    min-width: 150px;
+  }
+
+  td {
+    min-width: 150px;
+    line-height: 40px;
+  }
+}
+.user {
+  &__name {
+    margin-left: 15px;
+  }
+  &__username {
+    margin-left: 50px;
+  }
+  button {
+    padding: 8px 15px;
+    border-radius: 4px;
+    &:last-child {
+      margin-left: 15px;
+    }
+  }
+}
